@@ -18,15 +18,15 @@ a:visited {color: black;}
 nav ul {
     margin-top: 65px;
     height: 200px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
     margin-left: -50px;
+    
 }
 nav li {
     list-style: none;
     border-bottom: 1px solid black;
     padding: 20px;
-    
+ 
     
 }
 .nav-link {

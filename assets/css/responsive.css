@@ -1,0 +1,66 @@
+@media screen and (min-width: 1000px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    #navbar {
+        position: relative;
+
+    }
+
+    nav ul {
+        margin-right: 50px;
+    }
+
+    .navhead {
+
+        align-self: center;
+
+        border-bottom: none;
+
+    }
+
+    .navhead,
+    #navbar ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #navbar,
+    #navbar ul,
+    .navhead {
+        width: 30%;
+        margin-top: 0;
+        overflow: hidden;
+
+    }
+
+    #navbar ul {
+        margin-top: 50px;
+        border-right: 5px solid grey;
+        border-top: 1px solid grey;
+        height: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+    }
+
+    #main-doc {
+        width: 65%;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    nav ul {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+}
